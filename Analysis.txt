@@ -24,11 +24,11 @@ There is a for-loop over the joined list of texts and calls, the complexity incr
 
 Task2
 
-O(n log n )
+O(n)
 
 Description:
 For each number of calling and answering call, one step is needed to set duration into the dictionary. 
-Checking the description here https://wiki.python.org/moin/TimeComplexity, the complexity of python function "sorted" is O(n log n )
+Increasing the input numbers, the time complexity of for-loop will increase linearly.
 
 ----------------------------------------------------------------------
 
