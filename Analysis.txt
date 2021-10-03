@@ -1,0 +1,53 @@
+===================================
+Worst-Case Big-O Notation
+===================================
+
+----------------------------------------------------------------------
+
+Task0
+
+O(1)
+
+Description:
+The complexity is not changed by the number of inputs
+
+----------------------------------------------------------------------
+
+Task1
+
+O(n)
+
+Description:
+There is a for-loop over the joined list of texts and calls, the complexity increases when the number of texts and/or calls increase
+
+----------------------------------------------------------------------
+
+Task2
+
+O(n log n )
+
+Description:
+For each number of calling and answering call, one step is needed to set duration into the dictionary. 
+Checking the description here https://wiki.python.org/moin/TimeComplexity, the complexity of python function "sorted" is O(n log n )
+
+----------------------------------------------------------------------
+
+Task3
+
+O(n log n)
+
+Description:
+If all calls are from fixed lines AND to fixed lines in Bangalore, so the complexity to find calls from Bangalore is O(4 n + n),
+The complexity of python function "sorted" is O(n log n)
+
+----------------------------------------------------------------------
+
+Task4
+
+O(n log n)
+
+Description:
+O(2 n)             -> find numbers receiving and sending texts
+O(2 n)             -> find numbers making and receiving calls
+O(n log n)         -> the complexity of python function "sorted"
+---------------------------------------------------------------------
